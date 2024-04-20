@@ -140,19 +140,6 @@ hi! link ShowMarksHLl DiffAdd
 hi! link ShowMarksHLu DiffChange
 highlight LineNr ctermfg=grey ctermbg=green
 
-" status line
-" powerlinr plugin
-set rtp+=/usr/local/anaconda3/lib/python3.7/site-packages/powerline/bindings/vim//
-
-set nocompatible
-set t_Co=256
-
-let g:minBufExplForceSyntaxEnable = 1
-
-set guifont=Source\ Code\ Pro\ for\ Powerline:h12
-
-set laststatus=2   " Always show the status line - use 2 lines for the status bar
-set noshowmode
 
 " ============================ specific file type ===========================
 
